@@ -1,5 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+//This is a replacement for actions.js and reducer.js
+
 const counterSlice = createSlice({
   name: 'counter',
   initialState: { count: 0 },
