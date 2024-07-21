@@ -1,0 +1,16 @@
+{
+  "books": [
+    {
+      "title": "The Alchemist",
+      "id": 1
+    },
+    {
+      "title": "Something new!",
+      "id": 6
+    },
+    {
+      "title": "IDGAF",
+      "id": 8
+    }
+  ]
+}

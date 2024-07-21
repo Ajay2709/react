@@ -1,0 +1,163 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ted"
+    },
+    {
+      "name": "Andrea Abshire",
+      "id": 24
+    },
+    {
+      "name": "Chester D'Amore",
+      "id": 25
+    },
+    {
+      "name": "April Gerhold",
+      "id": 26
+    },
+    {
+      "name": "Susie Crooks",
+      "id": 27
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 101,
+      "name": "Shanahan - Lakin",
+      "id": 1
+    },
+    {
+      "albumId": 110,
+      "name": "Bauch, Tremblay and Jacobi",
+      "id": 2
+    },
+    {
+      "albumId": 101,
+      "name": "Ondricka, Fay and Greenfelder",
+      "id": 3
+    },
+    {
+      "albumId": 101,
+      "name": "Smith - Grady",
+      "id": 4
+    },
+    {
+      "albumId": 101,
+      "name": "Kessler, Dooley and Blick",
+      "id": 5
+    },
+    {
+      "albumId": 101,
+      "name": "Will and Sons",
+      "id": 6
+    },
+    {
+      "albumId": 101,
+      "name": "Stehr - Koepp",
+      "id": 7
+    },
+    {
+      "albumId": 101,
+      "name": "McDermott LLC",
+      "id": 8
+    },
+    {
+      "albumId": 101,
+      "name": "Cremin and Sons",
+      "id": 9
+    },
+    {
+      "albumId": 101,
+      "name": "Volkman, Labadie and Towne",
+      "id": 10
+    },
+    {
+      "albumId": 107,
+      "name": "Beahan LLC",
+      "id": 11
+    },
+    {
+      "albumId": 107,
+      "name": "Schaden and Sons",
+      "id": 12
+    },
+    {
+      "albumId": 107,
+      "name": "Mosciski - Jakubowski",
+      "id": 13
+    },
+    {
+      "albumId": 108,
+      "name": "Romaguera - Lockman",
+      "id": 14
+    },
+    {
+      "albumId": 108,
+      "name": "Jacobson, Stanton and Crona",
+      "id": 15
+    },
+    {
+      "albumId": 108,
+      "name": "MacGyver, Jast and Friesen",
+      "id": 16
+    },
+    {
+      "albumId": 109,
+      "name": "Leuschke - Feeney",
+      "id": 17
+    },
+    {
+      "albumId": 109,
+      "name": "Stamm Group",
+      "id": 20
+    }
+  ],
+  "albums": [
+    {
+      "id": 101,
+      "title": "The Ruler",
+      "userId": 1
+    },
+    {
+      "userId": 24,
+      "title": "Modern Cotton Towels",
+      "id": 107
+    },
+    {
+      "userId": 24,
+      "title": "Bespoke Steel Bacon",
+      "id": 108
+    },
+    {
+      "userId": 25,
+      "title": "Electronic Rubber Chips",
+      "id": 109
+    },
+    {
+      "userId": 25,
+      "title": "Handcrafted Soft Chicken",
+      "id": 110
+    },
+    {
+      "userId": 1,
+      "title": "Bespoke Concrete Bacon",
+      "id": 111
+    },
+    {
+      "userId": 1,
+      "title": "Oriental Wooden Cheese",
+      "id": 112
+    },
+    {
+      "userId": 1,
+      "title": "Oriental Wooden Table",
+      "id": 113
+    },
+    {
+      "userId": 1,
+      "title": "Gorgeous Concrete Tuna",
+      "id": 114
+    }
+  ]
+}
