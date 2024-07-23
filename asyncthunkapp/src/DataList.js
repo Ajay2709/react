@@ -4,27 +4,25 @@ import fetchData from './fetchDataThunk.js';
 
 function DataList() {
   const dispatch = useDispatch();
-  const items = useSelector((state) => state.data.items);
-  const status = useSelector((state) => state.data.status);
-  const error = useSelector((state) => state.data.error);
+  const data = useSelector((state) => state.data);
 
   useEffect(() => {
-    if (status === 'idle') {
+    if (data.status === 'idle') {
       dispatch(fetchData());
     }
-  }, [status, dispatch]);
+  }, [data.status, dispatch]);
 
   return (
     <div>
-      {status === 'loading' && <p>Loading...</p>}
-      {status === 'succeeded' && (
+      {data.status === 'loading' && <p>Loading...</p>}
+      {data.status === 'succeeded' && (
         <ul>
-          {items.map((item) => (
+          {data.items.map((item) => (
             <li key={item.id}>{item.name}</li>
           ))}
         </ul>
       )}
-      {status === 'failed' && <p>{error}</p>}
+      {data.status === 'failed' && <p>{data.error}</p>}
     </div>
   );
 }
